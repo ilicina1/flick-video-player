@@ -7,8 +7,8 @@ class FlickAutoPlayCircularProgress extends StatefulWidget {
   const FlickAutoPlayCircularProgress({
     Key? key,
     this.colors,
-    this.width = 50,
-    this.height = 50,
+    this.width = 0,
+    this.height = 0,
     this.playChild = const Icon(
       Icons.play_arrow,
     ),
